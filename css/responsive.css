@@ -117,6 +117,11 @@
         top: -40px;
     }
 }
+@media(400px<=width<=480px){
+    .black{
+        left: 70px;
+    }
+}
 @media(max-width:416px){
     .gallery-section-position{
         height: 140px;
