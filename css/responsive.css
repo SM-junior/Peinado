@@ -1,0 +1,140 @@
+@media(max-width:991px){
+    .hair-menu-icon{
+        display: block;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .hair-menu1 ul{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       align-items: center;
+       position: absolute;
+       top: 10px;
+       right: 0;
+       background-color: #C7AC92;
+       width: 100%;
+       height: 40px;
+       color: #010101; 
+    }
+    .hair-menu1 ul li a{
+        color: #010101;
+        font-size: 10px;
+    }
+    .hair-menu ul li a{
+        display: block;
+        padding: 10px 20px;
+        color: #010101;
+    }
+    .hair-menu-icon i.fa-times{
+        display: none;
+    }
+    .hair-menu ul li a i{
+        color: #010101;
+    }
+    .hair-menu{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: black;
+    }
+    .hero-text h2{
+        font-size: 60px;
+        font-weight: 700;
+        color: #E8BDA1;
+        margin-left: 20px;
+    }
+    .hero-text p{
+        margin: 0 0 60px 20px;
+    }
+    .outer{
+        margin-left: 20px;
+    }
+    .salon-book{
+        margin-bottom: 30px;
+    }
+    .bottom::after{
+        height: 35%;
+        top: 250px;
+    }
+    .why-text p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media(max-width:768px){
+    .bottom::after{
+        height: 35%;
+        top: 60%;
+        width: 50%;
+    }
+}
+
+@media(max-width:663px){
+    .hero-text h2{
+        margin: 100px 0 30px 20px;
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .hero-btn a{
+        border: 2px solid white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+    }
+    .salon-section{
+        padding-top: 0;
+    }
+    .hair-service-section{
+        background-color: #010101;
+        padding: 10px 0;
+    }
+    .gallery-section-position{
+        height: 200px;
+    }
+    .go{
+        margin:10px;
+    }
+    .salon-section{
+        padding-bottom:150px;
+    }
+    .book h2{
+        margin-top: 80px;
+        font-size: 30px;
+    }
+}
+@media(max-width:663px){
+    .bottom::after{
+        height: 30%;
+        top: 60%;
+    }
+    .black{
+        left: 60px;
+        top: -40px;
+    }
+}
+@media(max-width:416px){
+    .gallery-section-position{
+        height: 140px;
+    }
+    .go{
+        margin:5px;
+    }
+    .book h2{
+        font-size: 21px;
+    }
+    .book h2{
+        margin-top: 80px;
+    }
+    .bottom::after{
+        height: 30%;
+        top: 65%;
+    }
+    .black{
+        left: 90px;
+    }
+}
